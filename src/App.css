@@ -267,3 +267,32 @@ button {
 button:hover {
   background-color: #ff524d;
 }
+
+.hero {
+  background-image: linear-gradient(to button, #131212, #b9afa5);
+  padding: 50px;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-title {
+  font-size: 2rem;
+}
+
+.hero-description {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 30px;
+  }
+
+  .hero-title {
+    font-size: 1.5rem;
+  }
+
+  .hero-description {
+    font-size: 1rem;
+  }
+}

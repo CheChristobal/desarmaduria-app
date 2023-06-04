@@ -42,7 +42,7 @@ const App = () => {
         <p className="hero-description">Bienvenido a nuestra página de mecanica. Encuentra piezas de calidad y servicios de mecánica para tu vehículo.</p>
       </div>
       {chunkedComponents.map((row, rowIndex) => (
-        <div className="card-row" key={rowIndex}>
+        <div id="card" className="card-row" key={rowIndex}>
           {row.map((component, index) => (
             <Card
               key={index}
@@ -53,7 +53,7 @@ const App = () => {
           ))}
         </div>
       ))}
-      <div className="service-section">
+      <div id="servicios" className="service-section">
         <h2>Servicios de Mecánica</h2>
         <div className="service-container">
           <div className="service">
@@ -71,7 +71,9 @@ const App = () => {
         </div>
       </div>
       
+      <div id="contacto">
       <ContactSection/>
+      </div>
     </div>
   );
 };
