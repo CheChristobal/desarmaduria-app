@@ -3,16 +3,21 @@ import Card from './components/Card';
 import ServiceSession from './components/ServiceSession';
 import Navbar from './components/Navbar';
 import './App.css';
+import image1 from './images/Placeholder.png'
+
+
+
 import ContactSection from './components/ContactSection';
+
 
 const App = () => {
   const components = [
-    { title: 'Motor de Arranque', description: 'Pieza eléctrica que se utiliza para iniciar el motor del vehículo.', image: 'images/placeholder.png' },
-    { title: 'Caja de Cambios Automática', description: 'Transmisión automática que cambia de marcha de forma automática según la velocidad y la carga del vehículo.', image: 'ruta-imagen-caja-cambios-automatica.jpg' },
-    { title: 'Radiador', description: 'Dispositivo de enfriamiento que disipa el calor del líquido refrigerante para evitar el sobrecalentamiento del motor.', image: 'ruta-imagen-radiador.jpg' },
-    { title: 'Pinza de Freno', description: 'Parte del sistema de frenos que ejerce presión sobre los discos de freno para detener el vehículo.', image: 'ruta-imagen-pinza-freno.jpg' },
-    { title: 'Faro Delantero', description: 'Luz delantera que proporciona iluminación en la parte frontal del vehículo durante la conducción nocturna.', image: 'ruta-imagen-faro-delantero.jpg' },
-    { title: 'Parachoques Trasero', description: 'Pieza de la carrocería que protege la parte trasera del vehículo de posibles impactos.', image: 'ruta-imagen-parachoques-trasero.jpg' },
+    { title: 'Motor de Arranque', description: 'Pieza eléctrica que se utiliza para iniciar el motor del vehículo.', image: image1 },
+    { title: 'Caja de Cambios Automática', description: 'Transmisión automática que cambia de marcha de forma automática según la velocidad y la carga del vehículo.', image: image1  },
+    { title: 'Radiador', description: 'Dispositivo de enfriamiento que disipa el calor del líquido refrigerante para evitar el sobrecalentamiento del motor.', image: image1  },
+    { title: 'Pinza de Freno', description: 'Parte del sistema de frenos que ejerce presión sobre los discos de freno para detener el vehículo.', image: image1  },
+    { title: 'Faro Delantero', description: 'Luz delantera que proporciona iluminación en la parte frontal del vehículo durante la conducción nocturna.',image: image1  },
+    { title: 'Parachoques Trasero', description: 'Pieza de la carrocería que protege la parte trasera del vehículo de posibles impactos.',image: image1  },
   ];
 
   const chunkArray = (array, size) => {

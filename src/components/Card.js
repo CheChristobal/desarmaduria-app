@@ -1,10 +1,16 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const Card = ({ title, description,image }) => {
+
+import image1 from '../images/Placeholder.png'
+
+
+
+const Card = ({ image,title, description }) => {
   return (
     <div className="card">
-        
-      <img src={image} alt="Imagen de la tarjeta" />
+      
+      <img src={image} alt={title}/>
+
       <h2>{title}</h2>
       <p>{description}</p>
     </div>

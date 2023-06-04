@@ -1,0 +1,34 @@
+
+
+[
+  {
+    "title": "Motor de Arranque",
+    "description": "Pieza eléctrica que se utiliza para iniciar el motor del vehículo.",
+    "imagen":"./images/Placeholder.png"
+  },
+  {
+    "title": "Caja de Cambios Automática",
+    "description": "Transmisión automática que cambia de marcha de forma automática según la velocidad y la carga del vehículo.",
+    "imagen": "ruta-imagen-caja-cambios-automatica.jpg"
+  },
+  {
+    "title": "Radiador",
+    "description": "Dispositivo de enfriamiento que disipa el calor del líquido refrigerante para evitar el sobrecalentamiento del motor.",
+    "imagen": "ruta-imagen-radiador.jpg"
+  },
+  {
+    "title": "Pinza de Freno",
+    "description": "Parte del sistema de frenos que ejerce presión sobre los discos de freno para detener el vehículo.",
+    "imagen": "ruta-imagen-pinza-freno.jpg"
+  },
+  {
+    "title": "Faro Delantero",
+    "description": "Luz delantera que proporciona iluminación en la parte frontal del vehículo durante la conducción nocturna.",
+    "imagen": "ruta-imagen-faro-delantero.jpg"
+  },
+  {
+    "title": "Parachoques Trasero",
+    "description": "Pieza de la carrocería que protege la parte trasera del vehículo de posibles impactos.",
+    "imagen": "ruta-imagen-parachoques-trasero.jpg"
+  }
+]
